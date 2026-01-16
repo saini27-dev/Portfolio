@@ -45,12 +45,10 @@ import mmduLogo from "./assets/education_logo/MMDU_logo.jpg";
 
 // Project Section Logo's
 
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+import driveShareLogo from "./assets/work_logo/drive_share.png";
+import GDConnectLogo from "./assets/work_logo/GD_Connect.png";
+import currencyConvertorLogo from "./assets/work_logo/currency_convertor.png";
+
 
 export const SkillsInfo = [
   {
@@ -181,17 +179,17 @@ export const education = [
     date: "2020 - 2021",
     grade: "92%",
     desc: "I completed my class 10th education from Sant Prem Singh Sen. Sec. School,Ugala,Ambala,Haryana under the CBSE board, where I studied English,Hindi,Maths,Science,Social Science",
+   
   },
 ];
 
 export const projects = [
-
   {
     id: 0,
-    title: "CS Prep",
+    title: "DriveShare",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
+      "Engineered a full-stack peer-to-peer car rental platform using the MERN stack, allowing registered users to list their personal vehicles for rent and others to book them.",
+    image: driveShareLogo,
     tags: [
       "React JS",
       "Node.js",
@@ -201,59 +199,25 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "https://github.com/anujdhiman485",
   },
   {
     id: 1,
-    title: "Movie Recommendation App",
+    title: "GD-Connect",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      "a real-time, multi-peer video and audio streaming platform using WebRTC, allowing 2–5 users to connect directly (peer-to-peer) for live group discussion practice.",
+    image: GDConnectLogo,
+    tags: ["React JS", "Next JS", "MongoDb", "JavaScript"],
+    github: "https://github.com/anujdhiman485",
   },
 
   {
     id: 2,
-    title: "Task Reminder Chrome Extension Tool",
+    title: "Currency convertor",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    image: taskremLogo,
+      "A basic currency convertor made in React js which can convert the value of one currency to another",
+    image: currencyConvertorLogo,
     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  },
-
-  {
-    id: 3,
-    title: "Coding Master",
-    description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-  },
-  {
-    id: 4,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "Image Background Remover",
-    description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
+    github: "https://github.com/anujdhiman485",
   },
 ];
