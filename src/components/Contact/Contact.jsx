@@ -49,7 +49,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]"
+      className="flex flex-col items-center justify-center py-24 px-[7vw] md:px-[7vw] lg:px-[20vw]"
     >
       {/* Toast Container */}
       <ToastContainer />
