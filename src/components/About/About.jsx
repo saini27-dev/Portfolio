@@ -19,7 +19,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Anuj 
+            Sourabh
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -48,7 +48,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1bfPTQD9SQJ-nUF2Yz0X-uDxRJdKNPhOO/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1s8n9l7mXo2a3j5k6l7m8n9o0p1q2r3s/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -59,10 +59,10 @@ const About = () => {
           >
             DOWNLOAD CV
           </a>
-          
+
         </div>
         {/* Right Side */}
-        <div className="md:w-1/2 flex justify-center md:justify-end">
+        <div className="md:w-1/2 flex justify-center md:justify-end relative z-10">
           <Tilt
             className="w-40 h-40 sm:w-52 sm:h-52 md:w-[22rem] md:h-[22rem] border-4 border-purple-700 rounded-full overflow-hidden"
             tiltMaxAngleX={20}
@@ -71,11 +71,14 @@ const About = () => {
             scale={1.05}
             transitionSpeed={1000}
             gyroscope={false}
+            style={{
+              boxShadow: '0 10px 20px rgba(130, 69, 236, 0.5)',
+            }}
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
-              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              alt="Sourabh "
+              className="w-full h-full rounded-full object-cover object-center"
             />
           </Tilt>
         </div>

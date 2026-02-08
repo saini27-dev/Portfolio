@@ -159,27 +159,27 @@ export const education = [
     img: mmduLogo,
     school:
       "Maharishi Markandeshwar (Deemed to be) University , Mullana , Ambala",
-    date: "July 2023 - March 2027",
-    grade: "8.23 CGPA",
+    date: "Aug 2024 - March 2027",
+    grade: "7.38 CGPA",
     desc: "I am persuing my degree of BTech in computer Science and engineering from MMDU Mullana,Ambala,Haryana.I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge.",
     degree: "BTech C.S.E",
   },
   {
     id: 1,
     img: gmsLogo,
-    school: "Govt. Model Sanskriti School,barara,Ambala",
-    date: "2022 - 2023",
-    grade: "76.8%",
-    desc: "I completed my class 12 education from Govt. Model Sanskriti Sen. Sec. School under the CBSE board, where I studied  Physics, Chemistry, and Mathematics (PCM) , English , Hindi",
+    school: "Govt.sen. sec School,pathreri,Ambala",
+    date: "2019 - 2021",
+    grade: "89%",
+    desc: "I completed my class 12 education from Govt.sen. sec School,pathreri under the HBSC board, where I studied  Physics, Chemistry, and Mathematics (PCM) , English , Hindi",
   },
   {
     id: 2,
     img: spsLogo,
-    school: "S.P.S Sen. Sec. School",
-    date: "2020 - 2021",
-    grade: "92%",
-    desc: "I completed my class 10th education from Sant Prem Singh Sen. Sec. School,Ugala,Ambala,Haryana under the CBSE board, where I studied English,Hindi,Maths,Science,Social Science",
-   
+    school: "Shiva High School",
+    date: "2017 - 2019",
+    grade: "73%",
+    desc: "I completed my class 10th education from Shiva High School,Pathreri,Ambala,Haryana under the HBSC board, where I studied English,Hindi,Maths,Science,Social Science",
+
   },
 ];
 
@@ -199,7 +199,7 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
-    github: "https://github.com/anujdhiman485",
+    github: "https://github.com/saini27-dev",
   },
   {
     id: 1,
@@ -208,7 +208,7 @@ export const projects = [
       "a real-time, multi-peer video and audio streaming platform using WebRTC, allowing 2–5 users to connect directly (peer-to-peer) for live group discussion practice.",
     image: GDConnectLogo,
     tags: ["React JS", "Next JS", "MongoDb", "JavaScript"],
-    github: "https://github.com/anujdhiman485",
+    github: "https://github.com/saini27-dev",
   },
 
   {
@@ -218,6 +218,6 @@ export const projects = [
       "A basic currency convertor made in React js which can convert the value of one currency to another",
     image: currencyConvertorLogo,
     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/anujdhiman485",
+    github: "https://github.com/saini27-dev",
   },
 ];

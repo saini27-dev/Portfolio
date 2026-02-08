@@ -5,17 +5,18 @@ import PropTypes from 'prop-types';
 const BlurBlob = ({ position, size }) => {
   // Destructure position and size with default values
   const { top, left } = position
-  const { width, height } = size 
+  const { width, height } = size
 
   return (
     <div
-      className="absolute"
+      className="absolute pointer-events-none"
       style={{
         top: top,
         left: left,
         width: width,
         height: height,
         transform: 'translate(-50%, -50%)',
+        zIndex: 0,
       }}
     >
       <div
