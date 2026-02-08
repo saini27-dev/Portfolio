@@ -26,9 +26,8 @@ const Education = () => {
           {education.map((edu, index) => (
             <div
               key={edu.id}
-              className={`relative flex items-center ${
-                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-              } flex-col`}
+              className={`relative flex items-center ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                } flex-col`}
             >
               {/* Timeline Circle */}
               <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 bg-gray-900 border-4 border-purple-500 w-16 h-16 rounded-full justify-center items-center z-20 shadow-lg shadow-purple-500/50">
@@ -41,9 +40,8 @@ const Education = () => {
 
               {/* Education Card */}
               <div
-                className={`w-full md:w-[calc(50%-2rem)] ${
-                  index % 2 === 0 ? "md:pr-2" : "md:pl-2"
-                }`}
+                className={`w-full md:w-[calc(50%-2rem)] ${index % 2 === 0 ? "md:pr-2" : "md:pl-2"
+                  }`}
               >
                 <div className="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-purple-500/30 rounded-2xl p-6 shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 hover:scale-[1.02] hover:border-purple-500/60 backdrop-blur-sm">
                   {/* Header Section */}

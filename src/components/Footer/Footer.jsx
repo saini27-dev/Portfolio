@@ -41,8 +41,8 @@ const Footer = () => {
             { icon: <FaTwitter />, link: "https://x.com/sourabhmasute" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/sourabh-masute-700082254/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/sourabh_masute/" },
-           
-            
+
+
           ].map((item, index) => (
             <a
               key={index}

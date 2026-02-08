@@ -1,4 +1,4 @@
-import React, { useRef} from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -98,7 +98,7 @@ const Contact = () => {
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
-          
+
           {/* Send Button */}
           <button
             type="submit"
