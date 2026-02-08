@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile.jpg';
+import profileImage from '../../public/favicon.jpg';
 
 
 const About = () => {
