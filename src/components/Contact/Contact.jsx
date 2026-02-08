@@ -1,13 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
+  const [isLoading, setIsLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsLoading(true);
 
     emailjs
       .sendForm(
@@ -21,6 +23,7 @@ const Contact = () => {
       .then(
         () => {
           form.current.reset(); // Reset form fields after sending
+          setIsLoading(false);
           toast.success("Message sent successfully! ✅", {
             position: "top-right",
             autoClose: 3000,
@@ -33,6 +36,7 @@ const Contact = () => {
         },
         (error) => {
           console.error("Error sending message:", error);
+          setIsLoading(false);
           toast.error("Failed to send message. Please try again.", {
             position: "top-right",
             autoClose: 3000,
@@ -102,9 +106,20 @@ const Contact = () => {
           {/* Send Button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
+            disabled={isLoading}
+            className={`w-full py-3 text-white font-semibold rounded-md transition ${isLoading
+                ? "bg-gray-400 cursor-not-allowed opacity-60"
+                : "bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90"
+              }`}
           >
-            Send
+            {isLoading ? (
+              <span className="flex items-center justify-center">
+                <span className="inline-block w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin mr-2"></span>
+                Sending...
+              </span>
+            ) : (
+              "Send"
+            )}
           </button>
         </form>
       </div>
